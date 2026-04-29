@@ -247,9 +247,9 @@ public class FaceReact : MonoBehaviour
                             case "😘":
                                 int ran1 = UnityEngine.Random.Range(0, 2);
                                 if (ran1 == 0)
-                                    StartCoroutine(FaceUPGroup(new int[] { bwr_fun, eye_fun, eye_close_L, mth_u }, new float[] { 100, 100, 80, 100 }, 1f, false, true));
+                                    StartCoroutine(FaceUPGroup(new int[] { bwr_fun, eye_fun, eye_close_L }, new float[] { 100, 100, 80}, 1f, false, true));
                                 else if (ran1 == 1)
-                                    StartCoroutine(FaceUPGroup(new int[] { bwr_fun, eye_fun, eye_close_R, mth_u }, new float[] { 100, 100, 80, 100 }, 1f, false, true));
+                                    StartCoroutine(FaceUPGroup(new int[] { bwr_fun, eye_fun, eye_close_R }, new float[] { 100, 100, 80}, 1f, false, true));
                                 break;
                         }
                     }
